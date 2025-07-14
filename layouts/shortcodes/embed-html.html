@@ -1,0 +1,6 @@
+{{ $file := .Get "file" }}
+{{ with resources.Get $file }}
+  {{ .Content | safeHTML }}
+{{ else }}
+  <p>File not found: {{ $file }}</p>
+{{ end }}
