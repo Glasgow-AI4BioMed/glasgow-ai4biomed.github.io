@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the AI4BioMed Lab
+      - title: 👋 Welcome to the <span style="white-space: nowrap;">AI4BioMed</span> Lab
         content: Take a look at what we're working on...
         align: center
         background:
