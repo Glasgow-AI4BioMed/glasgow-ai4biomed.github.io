@@ -13,7 +13,7 @@ superuser: false
 role: PhD student (2022.11 - )
 
 user_groups:
-  - Research Students
+  - Everyone
 
 # Organizations/Affiliations to show in About widget
 organizations:

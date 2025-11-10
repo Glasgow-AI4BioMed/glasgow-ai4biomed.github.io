@@ -13,7 +13,7 @@ superuser: false
 role: Postdoc (Research Associate)
 
 user_groups:
-  - Researchers
+  - Everyone
 
 # Organizations/Affiliations to show in About widget
 organizations:

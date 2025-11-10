@@ -13,7 +13,7 @@ superuser: true
 role: Affiliate
 
 user_groups:
-  - Academic Staff
+  - Everyone
 
 # Organizations/Affiliations to show in About widget
 organizations:
