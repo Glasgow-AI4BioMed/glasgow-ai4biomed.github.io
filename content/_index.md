@@ -31,7 +31,7 @@ sections:
       image:
         filename: robot_biology_pixelart.png
       text: |
-        We work on natural language processing, knowledge graphs, language models and more to extract and infer biomedical knowledge.
+        We work on natural language processing, bioinformatics, knowledge graphs, language models and more to extract and infer biomedical knowledge.
         <br /><br />
         The group is led by <a href="/author/jake-lever/">Dr Jake Lever</a> and <a href="/author/kevin-bryson/">Dr Kevin Bryson</a> in the <a href="https://www.gla.ac.uk/schools/computing/">School of Computing Science</a> at the University of Glasgow.
         <br /><br />
