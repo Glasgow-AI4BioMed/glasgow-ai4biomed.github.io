@@ -13,7 +13,7 @@ superuser: false
 role: Lecturer (Assistant Professor)
 
 user_groups:
-  - Academic Staff
+  -  
 
 # Organizations/Affiliations to show in About widget
 organizations:
