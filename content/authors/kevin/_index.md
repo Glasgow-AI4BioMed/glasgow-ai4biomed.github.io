@@ -12,9 +12,6 @@ superuser: true
 # Role/position/tagline
 role: Senior Lecturer (Associate Professor)
 
-user_groups:
-  - Academic Staff
-
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Glasgow
