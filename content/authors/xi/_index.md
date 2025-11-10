@@ -20,7 +20,7 @@ user_groups:
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Glasgow
-    url: hhttps://www.gla.ac.uk/
+    url: https://www.gla.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Interested in AI4Health & AI Agent, specialising in the development of steerable radiology vision-language systems.
