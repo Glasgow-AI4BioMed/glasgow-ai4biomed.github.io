@@ -2,6 +2,8 @@
 # Display name
 title: Kevin Bryson
 
+start: 2
+
 # Full name (for SEO)
 first_name: Kevin
 last_name: Bryson

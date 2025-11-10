@@ -2,6 +2,8 @@
 # Display name
 title: Jake Lever
 
+start: 1
+
 # Full name (for SEO)
 first_name: Jake
 last_name: Lever

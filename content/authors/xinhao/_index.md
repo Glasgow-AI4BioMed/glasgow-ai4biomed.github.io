@@ -2,6 +2,8 @@
 # Display name
 title: Xinhao Yi
 
+start: 2023
+
 # Full name (for SEO)
 first_name: Xinhao
 last_name: Yi

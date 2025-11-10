@@ -2,6 +2,8 @@
 # Display name
 title: Jinyuan Fang
 
+start: 2022
+
 # Full name (for SEO)
 first_name: Jinyuan
 last_name: Fang
