@@ -64,6 +64,16 @@ img {
   font-weight: 700;
 }
 
+.site-title a {
+  color: #000;
+}
+
+.site-title a:hover,
+.site-title a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
 .main-nav {
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +83,7 @@ img {
 .main-nav a {
   padding: 0.25rem 0.45rem;
   border-radius: 6px;
-  color: var(--text);
+  color: #000;
   font-weight: 500;
 }
 
@@ -85,7 +95,14 @@ img {
 .main-nav a:hover,
 .main-nav a:focus {
   background: #f3f6fb;
+  color: #000;
   text-decoration: none;
+}
+
+.main-nav a[aria-current="page"]:hover,
+.main-nav a[aria-current="page"]:focus {
+  background: var(--primary);
+  color: #fff;
 }
 
 .hero {
