@@ -401,8 +401,9 @@ img {
 
 .work-hero img {
   width: 100%;
-  max-height: 340px;
+  max-height: 400px;
   object-fit: cover;
+  object-position: top;
 }
 
 .work-hero-text {
@@ -429,7 +430,7 @@ img {
 
 .wide-photo {
   margin-top: 1.2rem;
-  height: 240px;
+  height: 320px;
   border-radius: 14px;
   background: url("assets/media/glasgow_uni.jpg") center/cover no-repeat;
 }
