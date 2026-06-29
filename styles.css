@@ -109,23 +109,40 @@ img {
   width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #fff;
 }
 
 .hero-card {
+  position: relative;
+  width: min(100%, calc(80vh * 1225 / 597));
+}
+
+.hero-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(15, 20, 35, 0.22) 0%, rgba(15, 20, 35, 0.5) 100%);
+}
+
+.hero-photo {
+  display: block;
   width: 100%;
-  min-height: 78vh;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  color: #fff;
-  background:
-    linear-gradient(180deg, rgba(15, 20, 35, 0.22) 0%, rgba(15, 20, 35, 0.5) 100%),
-    url("assets/media/AI4BioMedicine_2023_Xmax.jpg") center/cover no-repeat;
+  height: auto;
 }
 
 .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
   max-width: 960px;
   padding: 1.5rem;
+  text-align: center;
+  color: #fff;
 }
 
 .hero h2 {
@@ -199,10 +216,6 @@ img {
   .nav-wrap {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .hero-card {
-    min-height: 62vh;
   }
 
   .intro {
