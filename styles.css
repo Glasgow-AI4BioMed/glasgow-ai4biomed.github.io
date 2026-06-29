@@ -108,7 +108,7 @@ img {
 .hero {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1.4rem 1rem;
   display: flex;
   justify-content: center;
   background: #fff;
@@ -116,7 +116,11 @@ img {
 
 .hero-card {
   position: relative;
-  width: min(100%, calc(80vh * 1225 / 597));
+  width: 100%;
+  max-width: var(--max-width);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .hero-card::after {
@@ -134,7 +138,7 @@ img {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 67%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
