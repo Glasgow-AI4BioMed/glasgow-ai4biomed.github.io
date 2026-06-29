@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resources from the Glasgow AI4BioMed Lab">
+  <title>Resources | Glasgow AI4BioMed Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <h1 class="site-title"><a href="index.html">Glasgow AI4BioMed Lab</a></h1>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">About</a>
+        <a href="people.html">People</a>
+        <a href="projects.html">Projects</a>
+        <a href="resources.html" aria-current="page">Resources</a>
+        <a href="publications.html">Publications</a>
+        <a href="workwithus.html">Work with Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section" aria-label="Resources">
+      <h1 class="page-title">Resources</h1>
+      <p class="page-subtitle">Tutorials and learning materials from the lab.</p>
+
+      <section class="resource-block" aria-label="ISMB 2025 Tutorial">
+        <h2><a href="https://ai4biomed.org/ismb2025tutorial/">Biomedical Text Mining for Knowledge Extraction Tutorial @ ISMB 2025</a></h2>
+        <p>A hands-on introduction to the core tasks in biomedical natural language processing (BioNLP) for extracting knowledge from text. Topics include named entity recognition, entity linking, relation extraction, and the strengths and weaknesses of large language models for information extraction. Visit the <a href="https://ai4biomed.org/ismb2025tutorial/">tutorial website</a> for slides and Jupyter notebooks.</p>
+      </section>
+
+      <section class="resource-block" aria-label="Mini Code Tutorials">
+        <h2>Mini Code Tutorials</h2>
+        <p>Short code tutorials on small concepts, hosted as Jupyter notebooks on GitHub.</p>
+
+        <h3>NLP</h3>
+        <ul>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/huggingface_tokenizer_tricks.ipynb">HuggingFace tokenizer tricks</a> — options for using and customizing HuggingFace tokenizers</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/custom_token_classification_models.ipynb">Creating a custom token classification model</a> — creating a custom model in HuggingFace</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/further_pretraining_a_lm.ipynb">Further pretraining a language model and generating text with it</a> — training a causal language model and generating text</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/creating_a_huggingface_dataset_object.ipynb">Creating a HuggingFace dataset object</a> — creating a Dataset object that works with the HuggingFace Trainer</li>
+        </ul>
+
+        <h3>Knowledge Graphs</h3>
+        <ul>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/twohop_link_prediction.ipynb">Two-Hop Link Prediction for a Knowledge Graph</a> — link prediction in a knowledge graph using a basic rule-based approach</li>
+        </ul>
+
+        <h3>Biomedical</h3>
+        <ul>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/getting_mesh_tags_with_entrez_api.ipynb">Getting MeSH Tags with Entrez API</a> — using the Entrez API to access MeSH tags on biomedical documents</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/loading_bioc_xml_files_and_archives.ipynb">Loading BioC XML files plus dealing with an archive of them</a> — using the bioc package to store and access biomedical documents and annotations</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/loading_pubmed_xml_files.ipynb">Loading a PubMed XML file</a> — loading a PubMed XML bulk-download file and extracting title, abstract, and metadata</li>
+        </ul>
+
+        <h3>Entity Linking and Information Retrieval</h3>
+        <ul>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/candidate_generation_for_entity_linking.ipynb">Candidate Generation for Entity Linking</a> — methods for identifying candidate entities given a mention</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/training_a_biencoder_end_to_end_for_entity_linking.ipynb">Training a Bi-encoder End-to-End for Entity Linking</a> — making a transformer output similar vectors for texts referring to the same entity</li>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/vector_similarity_with_a_neural_network.ipynb">Vector similarity with a neural network</a> — training a neural network for dot-product similarity using PyTorch</li>
+        </ul>
+
+        <h3>Deep Learning</h3>
+        <ul>
+          <li><a href="https://github.com/Glasgow-AI4BioMed/tutorials/blob/main/pytorch_training_loop_with_custom_hugging_face_model.ipynb">Example of PyTorch Training Loop with Custom Hugging Face Model</a> — a standard PyTorch training loop with custom batch setup</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <p>© 2026 Jake Lever and Kevin Bryson.</p>
+      <p>
+        Content license:
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY NC ND 4.0</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
